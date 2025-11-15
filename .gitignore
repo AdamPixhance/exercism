@@ -1,0 +1,65 @@
+# ======================
+#   PYTHON IGNORE
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+# Python build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+.pytest_cache/
+
+# ======================
+#   JAVA IGNORE
+# ======================
+# Eclipse files
+.classpath
+.project
+.settings/
+.bin/
+build/
+target/
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# ======================
+#   OS/EDITOR IGNORE
+# ======================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
