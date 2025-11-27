@@ -15,4 +15,4 @@ def isosceles(sides):
     return equilateral(sides) or (is_valid(sides) and ((a == b) or (a == c) or (b == c)))
 
 def scalene(sides):
-    return is_valid(sides) and not isosceles
+    return is_valid(sides) and not isosceles(sides)
