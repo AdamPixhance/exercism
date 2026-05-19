@@ -63,3 +63,18 @@ Desktop.ini
 
 # VS Code
 .vscode/
+.markdownlint.json
+
+# ======================
+#   EXERCISE IGNORE
+# ======================
+# Keep only README.md and the language-specific solution area inside each exercise.
+/haskell/*/*
+!/haskell/*/README.md
+!/haskell/*/src/
+!/haskell/*/src/**
+
+/python/*/*
+!/python/*/README.md
+!/python/*/*.py
+/python/*/*_test.py
